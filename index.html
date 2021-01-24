@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Hitesh Parate - Portfolio</title>
+
+	<link rel="icon" sizes="32x32" href="images/fa.png">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/name.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+	<!-- MDB -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.1.0/mdb.min.css" rel="stylesheet" />
+	<style>
+		g {
+			transform: translateX(20);
+			transform: translateY(100);
+
+		}
+
+		text {
+			font-size: 20px;
+			color: #3e64ff;
+		}
+
+		@media(max-width: 400px) {
+			text {
+				font-size: 10px;
+			}
+
+			g {
+				transform: translateX(0);
+				transform: translateY(10);
+			}
+		}
+
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			height: 200px;
+			width: 200px;
+			width: 50%;
+		}
+
+		.card-image {
+			border-radius: 40px;
+			height: 300px;
+			width: 300px;
+		}
+
+		.flip-card {
+			background-color: transparent;
+			width: 300px;
+			height: 300px;
+			perspective: 1000px;
+		}
+
+		.flip-card-inner {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			transition: transform 0.6s;
+			transform-style: preserve-3d;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+			border-radius: 40px;
+		}
+
+		.flip-card:hover .flip-card-inner {
+			transform: rotateY(180deg);
+		}
+
+		.flip-card-front,
+		.flip-card-back {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+		}
+
+		.flip-card-front {
+			background-color: transparent;
+			color: black;
+
+		}
+
+		.flip-card-back {
+			background-color: transparent;
+			color: #3e64ff;
+			transform: rotateY(180deg);
+
+		}
+
+		.flip-card-back .icon-left {
+
+			padding-right: 10%
+		}
+	</style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><span></span>Hitesh</a>
+			<!-- <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button> -->
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
+					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+					<!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section class="hero-wrap js-fullheight">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+					<div class="text text-center">
+
+						<!-- <svg preserveAspectRatio="none" width="100%" height="100%">
+							<g transform="translate(100,100)" >
+								<text id="TextElement" x="1.5%" y="-20%"
+									style="font-family:Verdana;color:#3e64ff; visibility:hidden">Hitesh
+									Parate
+									<set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s"
+										fill="freeze" />
+									<animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+									<animateTransform attributeName="transform" attributeType="XML" type="rotate"
+										from="-30" to="0" begin="1s" dur="5s" fill="freeze" />
+									<animateTransform attributeName="transform" attributeType="XML" type="scale"
+										from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" />
+								</text>
+							</g>
+							Sorry, your browser does not support inline SVG.
+						</svg> -->
+						<div class="word">
+							<span style="color: #3e64ff;">H</span>
+							<span style="color: #3e64ff;">I</span>
+							<span style="color: #3e64ff;">T</span>
+							<span style="color: #3e64ff;">E</span>
+							<span style="color: #3e64ff;">S</span>
+							<span style="color: #3e64ff;">H</span>
+							<span>&nbsp</span>
+							<span>&nbsp</span>
+							<span>&nbsp</span>
+							<span style="color: #3e64ff;">P</span>
+							<span style="color: #3e64ff;">A</span>
+							<span style="color: #3e64ff;">R</span>
+							<span style="color: #3e64ff;">A</span>
+							<span style="color: #3e64ff;">T</span>
+							<span style="color: #3e64ff;">E</span>
+
+						</div>
+						<h2>I'm a
+							<span class="txt-rotate" data-period="2000" data-rotate='[ "Full Stack Developer" ]'></span>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="mouse">
+			<a href="#" class="mouse-icon">
+				<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+			</a>
+		</div>
+
+
+	</section>
+
+	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<!-- <div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/mine.jpg);">
+	    				</div>
+    				</div>
+				</div> -->
+				<div class="col-md-3 col-lg-3 d-flex"></div>
+				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+					<div class="row justify-content-start pb-3">
+
+						<div class="col-md-12 heading-section ftco-animate">
+
+							<h1 class="big">About</h1>
+							<h2 class="mb-4">About Me</h2>
+
+							<ul class="about-info mt-4 px-md-0 px-2">
+								<li class="d-flex"><span>Name:</span> <span>Hitesh Parate</span></li>
+								<li class="d-flex"><span>Date of birth:</span> <span>November 30,1996</span></li>
+								<li class="d-flex"><span>Address:</span> <span>791 Assumption Street, Windsor</span>
+								</li>
+								<li class="d-flex"><span>Zip code:</span> <span>N9A 3B7</span></li>
+								<li class="d-flex"><span>Email:</span> <span>hiteshparate77@gmail.com</span></li>
+								<li class="d-flex"><span>Phone: </span> <span>+1-519-984-5406</span></li>
+							</ul>
+
+						</div>
+
+					</div>
+					<div class="col-md-3 col-lg-3 d-flex"></div>
+
+					<div class="counter-wrap ftco-animate d-flex mt-md-3">
+						<div class="text">
+
+							<p><a href="https://drive.google.com/file/d/1IVJ6ah1SFlzBtbNKiod2Q2kZM-urVfSt/view?usp=sharing"
+									class="btn btn-primary py-3 px-3">Download Resume</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col-md-3">
+					<nav id="navi">
+						<ul>
+							<li><a href="#page-1">Education</a></li>
+							<li><a href="#page-2">Experience</a></li>
+							<li><a href="#page-3">Skills</a></li>
+							<li><a href="#page-4">Awards</a></li>
+						</ul>
+					</nav>
+				</div> -->
+				<div class="col-md-1"></div>
+				<div class="col-md-9">
+					<div id="page-1" class="page one">
+						<h2 class="heading">Education</h2>
+
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2019-2020</span>
+								<h2>Master in Computer Engineering</h2>
+								<span class="position">University of Windsor</span>
+
+							</div>
+						</div>
+
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2014-2018</span>
+								<h2>Bachelor in Information and Communication Technology</h2>
+								<span class="position">Dhirubhai Ambani Institute, India</span>
+
+							</div>
+						</div>
+
+
+					</div>
+
+					<div id="page-2" class="page two">
+						<h2 class="heading">Experience</h2>
+
+
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">October 2018 - February 2019</span>
+								<h2>Full Stack Developer Intern</h2>
+								<span class="position">Tops Technologies</span>
+								<p>• Created a Web Application named "Workhunter"
+									<br>• In this application, people can find developers to implement their projects
+									and developers can find projects to work on
+									<br>• Learned Angular framework, bootstrap, MySQL, Node.js
+									<br>• Learned soft skills like communication, teamwork and problem solving
+								</p>
+
+							</div>
+						</div>
+						<div id="page-3" class="page three">
+							<h2 class="heading"> Technical Skills</h2>
+							<div class="row progress-circle mb-5">
+
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">React</h2>
+										<img alt="react" class="center"
+											src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjQ4MHB0IiB2aWV3Qm94PSItMjggMCA0ODAgNDgwIiB3aWR0aD0iNDgwcHQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTIxMi4yMDMxMjUgMjA4YzE3LjY3NTc4MSAwIDMyIDE0LjMyODEyNSAzMiAzMnMtMTQuMzI0MjE5IDMyLTMyIDMyYy0xNy42NzE4NzUgMC0zMi0xNC4zMjgxMjUtMzItMzJzMTQuMzI4MTI1LTMyIDMyLTMyem0wIDAiIGZpbGw9IiM5YmM5ZmYiLz48cGF0aCBkPSJtMjQ0LjIwMzEyNSAyNDBjMCAxNy42NzE4NzUtMTQuMzI0MjE5IDMyLTMyIDMyLTE3LjY3MTg3NSAwLTMyLTE0LjMyODEyNS0zMi0zMnMxNC4zMjgxMjUtMzIgMzItMzJjMTcuNjc1NzgxIDAgMzIgMTQuMzI4MTI1IDMyIDMyem0wIDAiIGZpbGw9IiM5YmM5ZmYiLz48ZyBmaWxsPSIjMWU4MWNlIj48cGF0aCBkPSJtMjEyLjIwMzEyNSAyMDBjLTIyLjA4OTg0NCAwLTQwIDE3LjkxMDE1Ni00MCA0MHMxNy45MTAxNTYgNDAgNDAgNDBjMjIuMDkzNzUgMCA0MC0xNy45MTAxNTYgNDAtNDAtLjAyMzQzNy0yMi4wODIwMzEtMTcuOTE3OTY5LTM5Ljk3MjY1Ni00MC00MHptMCA2NGMtMTMuMjUzOTA2IDAtMjQtMTAuNzQ2MDk0LTI0LTI0czEwLjc0NjA5NC0yNCAyNC0yNGMxMy4yNTc4MTMgMCAyNCAxMC43NDYwOTQgMjQgMjRzLTEwLjc0MjE4NyAyNC0yNCAyNHptMCAwIi8+PHBhdGggZD0ibTM1MS40MDYyNSAyNDBjMTIuMDIzNDM4LTEwLjE2NDA2MiAyMy40NDkyMTktMjEuMDE1NjI1IDM0LjIyMjY1Ni0zMi40OTYwOTQgMzQuMjE0ODQ0LTM3LjAwNzgxMiA0Ni4xMjg5MDYtNjcuMjczNDM3IDM0LjQ0OTIxOS04Ny41MDM5MDYtMTYuODAwNzgxLTI5LjA2MjUtNzMuMjM0Mzc1LTIzLjY3MTg3NS0xMzguMjQyMTg3LS41NjY0MDYtMTIuNTE5NTMyLTY3Ljg0NzY1Ni0zNi4wNzgxMjYtMTE5LjQzMzU5NC02OS42MzI4MTMtMTE5LjQzMzU5NC0zMy41NTA3ODEgMC01Ny4xMDkzNzUgNTEuNTg1OTM4LTY5LjU5NzY1NiAxMTkuNDQxNDA2LTY1LjAwNzgxMy0yMy4xMDU0NjgtMTIxLjQ2NDg0NC0yOC40OTYwOTQtMTM4LjI0MjE4OC41NTg1OTQtMTEuNjc5Njg3IDIwLjIzMDQ2OS4yMzQzNzUgNTAuNDk2MDk0IDM0LjQ0OTIxOSA4Ny41MDM5MDYgMTAuNzY1NjI1IDExLjQ4MDQ2OSAyMi4xNzk2ODggMjIuMzI4MTI1IDM0LjE5MTQwNiAzMi40OTYwOTQtMTIuMDIzNDM3IDEwLjE2NDA2Mi0yMy40NDkyMTggMjEuMDE1NjI1LTM0LjIyMjY1NiAzMi40OTYwOTQtMzQuMTkxNDA2IDM3LjAwNzgxMi00Ni4xMDU0NjkgNjcuMjczNDM3LTM0LjQyNTc4MSA4Ny41MDM5MDYgOCAxMy44NzEwOTQgMjUuMDUwNzgxIDE5Ljg5NDUzMSA0Ny43NTM5MDYgMTkuODk0NTMxIDMxLjAxMTcxOS0xLjUxOTUzMSA2MS41NzQyMTktOC4wNTA3ODEgOTAuNDk2MDk0LTE5LjM0Mzc1IDEyLjQ4ODI4MSA2Ny44NjMyODEgMzYuMDQ2ODc1IDExOS40NDkyMTkgNjkuNTk3NjU2IDExOS40NDkyMTkgMzMuNTU0Njg3IDAgNTcuMTEzMjgxLTUxLjU4NTkzOCA2OS42MDE1NjMtMTE5LjQ0MTQwNiAyOC45MjE4NzQgMTEuMjg1MTU2IDU5LjQ4MDQ2OCAxNy44MTY0MDYgOTAuNDg4MjgxIDE5LjMzNTkzNyAyMi42OTUzMTIgMCAzOS43NDIxODctNi4wMzEyNSA0Ny43NTM5MDYtMTkuODk0NTMxIDExLjY3OTY4Ny0yMC4yMzA0NjktLjIzNDM3NS01MC40OTYwOTQtMzQuNDQ5MjE5LTg3LjUwMzkwNi0xMC43NjU2MjUtMTEuNDgwNDY5LTIyLjE3OTY4Ny0yMi4zMjgxMjUtMzQuMTkxNDA2LTMyLjQ5NjA5NHptNTQuODE2NDA2LTExMmM3LjQ4ODI4MiAxMi45NzY1NjItNC42MDE1NjIgMzguNjQwNjI1LTMyLjMzNTkzNyA2OC42NDA2MjUtMTAuOTg0Mzc1IDExLjY4NzUtMjIuNjU2MjUgMjIuNzAzMTI1LTM0Ljk2MDkzOCAzMi45OTIxODctMTQuNzY5NTMxLTExLjg3ODkwNi0zMC44NTU0NjktMjMuNjU2MjUtNDguMTIxMDkzLTM1LjA2NjQwNi0xLjI1MzkwNy0yMC4yNTM5MDYtMy4zNTkzNzYtNDAuMjA3MDMxLTYuMjczNDM4LTU5LjE5OTIxOCA2NC40NzI2NTYtMjMuMTQ0NTMyIDExMS40ODA0NjktMjQuOTY4NzUgMTIxLjY2NDA2Mi03LjM2NzE4OHptLTE2Mi4wMTk1MzEgMTY3LjQyNTc4MWMtMTAuODQ3NjU2IDYuMjUtMjEuNTExNzE5IDEyLjA2NjQwNy0zMiAxNy40NTMxMjUtMTAuNDcyNjU2LTUuMzc1LTIxLjE0MDYyNS0xMS4xOTUzMTItMzItMTcuNDUzMTI1LTEwLjcxMDkzNy02LjE4NzUtMjEuMDQ2ODc1LTEyLjU5Mzc1LTMxLjExNzE4Ny0xOS4wODk4NDMtLjU4NTkzOC0xMS43MjY1NjMtLjg4MjgxMy0yMy44Mzk4NDQtLjg4MjgxMy0zNi4zMzU5MzhzLjI5Njg3NS0yNC42MDkzNzUuODgyODEzLTM2LjMzNTkzOGMxMC4wNzAzMTItNi40OTYwOTMgMjAuNDA2MjUtMTIuOTAyMzQzIDMxLjExNzE4Ny0xOS4wODk4NDMgMTAuODM5ODQ0LTYuMjUzOTA3IDIxLjUwNzgxMy0xMi4wNzAzMTMgMzItMTcuNDQ1MzEzIDEwLjQ4MDQ2OSA1LjM5MDYyNSAyMS4xNjc5NjkgMTEuMTk5MjE5IDMyIDE3LjQ0NTMxMyAxMC43MTQ4NDQgNi4xODc1IDIxLjA1MDc4MSAxMi41OTM3NSAzMS4xMjEwOTQgMTkuMDg5ODQzLjU4NTkzNyAxMS43MjY1NjMuODc4OTA2IDIzLjgzOTg0NC44Nzg5MDYgMzYuMzM1OTM4cy0uMjkyOTY5IDI0LjYwOTM3NS0uODc4OTA2IDM2LjMzNTkzOGMtMTAuMDcwMzEzIDYuNDk2MDkzLTIwLjQwNjI1IDEyLjkwMjM0My0zMS4xMjEwOTQgMTkuMDg5ODQzem0yOS44NjcxODcuNzEwOTM4Yy0xLjE2Nzk2OCAxNS4wNDY4NzUtMi43ODUxNTYgMjkuMzI4MTI1LTQuODAwNzgxIDQyLjc0MjE4Ny0xMi42MjUtNC45ODQzNzUtMjUuODA4NTkzLTEwLjcyNjU2Mi0zOS40MzM1OTMtMTcuMjQ2MDk0IDcuNTE5NTMxLTQgMTQuOTkyMTg3LTguMTA1NDY4IDIyLjM0Mzc1LTEyLjM0Mzc1IDcuMzUxNTYyLTQuMjQyMTg3IDE0LjczODI4MS04LjY5NTMxMiAyMS44OTA2MjQtMTMuMTUyMzQzem0tNzkuNTE5NTMxIDI1LjQ2NDg0M2MtMTMuNjAxNTYyIDYuNTExNzE5LTI2LjgwODU5MyAxMi4yNjE3MTktMzkuNDMzNTkzIDE3LjI0NjA5NC0xLjk5MjE4OC0xMy40MTQwNjItMy42MDkzNzYtMjcuNjk1MzEyLTQuODAwNzgyLTQyLjc0MjE4NyA3LjE1MjM0NCA0LjQ1MzEyNSAxNC40NDE0MDYgOC44MzU5MzcgMjEuODYzMjgyIDEzLjE1MjM0MyA3LjM3ODkwNiA0LjI2OTUzMiAxNC44NDc2NTYgOC4zNDM3NSAyMi4zNzEwOTMgMTIuMzQzNzV6bS02MS44OTA2MjUtNTYuMjE4NzVjLTEyLjE3NTc4MS04LjMzNTkzNy0yMy42NzE4NzUtMTYuNzk2ODc0LTM0LjQ5NjA5NC0yNS4zODI4MTIgMTAuNzk2ODc2LTguNTcwMzEyIDIyLjI5Mjk2OS0xNy4wNDI5NjkgMzQuNDk2MDk0LTI1LjQxNDA2Mi0uMjg5MDYyIDguNDc2NTYyLS40NTcwMzEgMTYuOTY0ODQzLS40NTcwMzEgMjUuNDE0MDYycy4xNjc5NjkgMTYuOTM3NS40NTcwMzEgMjUuNDE0MDYyem0xNy42Nzk2ODgtODEuNTUwNzgxYzEuMTY3OTY4LTE1LjAzOTA2MiAyLjc4NTE1Ni0yOS4zMTI1IDQuODAwNzgxLTQyLjcxODc1IDEyLjYwOTM3NSA0Ljk3NjU2MyAyNS43NzczNDQgMTAuNzI2NTYzIDM5LjM4MjgxMyAxNy4yMzA0NjktNy41MDc4MTMgMy45ODgyODEtMTQuOTQxNDA3IDguMTAxNTYyLTIyLjI5Mjk2OSAxMi4zMzU5MzgtNy40NTcwMzEgNC4zMjAzMTItMTQuNzUzOTA3IDguNzE0ODQzLTIxLjg5MDYyNSAxMy4xODM1OTN6bTc5LjUzOTA2Mi0yNS40MzM1OTNjMTMuNTk3NjU2LTYuNTExNzE5IDI2Ljc5Njg3NS0xMi4yNTM5MDcgMzkuNDE0MDYzLTE3LjIzODI4MiAxLjk5MjE4NyAxMy40MTQwNjMgMy42MDkzNzUgMjcuNjk1MzEzIDQuODAwNzgxIDQyLjc0MjE4OC03LjE2Nzk2OS00LjQ4NDM3NS0xNC40NjQ4NDQtOC44ODI4MTMtMjEuODkwNjI1LTEzLjE5MTQwNi03LjM0Mzc1LTQuMjM4MjgyLTE0LjgwNDY4Ny04LjMxMjUtMjIuMzI0MjE5LTEyLjMxMjV6bTYxLjg3MTA5NCA1Ni4yMjY1NjJjMTIuMTc1NzgxIDguMzI4MTI1IDIzLjY3MTg3NSAxNi43ODkwNjIgMzQuNDk2MDk0IDI1LjM3NS0xMC43OTY4NzUgOC41NjY0MDYtMjIuMjkyOTY5IDE3LjAzOTA2Mi0zNC40OTYwOTQgMjUuNDE0MDYyLjI4NTE1Ni04LjQ3NjU2Mi40NTMxMjUtMTYuOTY0ODQzLjQ1MzEyNS0yNS40MTQwNjJzLS4xNjc5NjktMTYuOTM3NS0uNDUzMTI1LTI1LjQxNDA2MnptLTc5LjU0Njg3NS0xOTguNjI1YzIwLjM2MzI4MSAwIDQyLjI3MzQzNyA0MS42NTYyNSA1NC40NDE0MDYgMTA5LjA3ODEyNS0xNy45MDIzNDMgNi45Njg3NS0zNi4yNDYwOTMgMTUuMTI4OTA2LTU0LjM5ODQzNyAyNC4xNzk2ODctMTguMTkxNDA2LTkuMDUwNzgxLTM2LjU0Njg3NS0xNy4yMTA5MzctNTQuNDAyMzQ0LTI0LjE3OTY4NyAxMi4wODk4NDQtNjcuNDE0MDYzIDM0LTEwOS4wNzgxMjUgNTQuMzU5Mzc1LTEwOS4wNzgxMjV6bS0xNjEuNjUyMzQ0IDE4MC42NDA2MjVjLTI3LjczODI4MS0zMC0zOS44MjQyMTktNTUuNjY0MDYzLTMyLjMzNTkzNy02OC42NDA2MjUgNC41MTk1MzEtNy44MjQyMTkgMTYuMjc3MzQ0LTExLjgxNjQwNiAzMy41OTc2NTYtMTEuODE2NDA2IDMwLjIwNzAzMSAxLjU4OTg0NCA1OS45NTcwMzEgOC4wNzQyMTggODguMDg5ODQ0IDE5LjE5OTIxOC0yLjkxNDA2MyAxOC45NjA5MzgtNS4wMTU2MjUgMzguOTA2MjUtNi4yNzM0MzggNTkuMTUyMzQ0LTE3LjI2NTYyNSAxMS40MTAxNTYtMzMuMzUxNTYyIDIzLjE5OTIxOS00OC4xMjEwOTQgMzUuMDY2NDA2LTEyLjMwMDc4MS0xMC4yNzczNDMtMjMuOTc2NTYyLTIxLjI4NTE1Ni0zNC45NTcwMzEtMzIuOTYwOTM3em0tMzIuMzM1OTM3IDE1NS4zNTkzNzVjLTcuNDg4MjgyLTEyLjk3NjU2MiA0LjU5NzY1Ni0zOC42NDA2MjUgMzIuMzM1OTM3LTY4LjY0MDYyNSAxMC45ODA0NjktMTEuNjg3NSAyMi42NTIzNDQtMjIuNzAzMTI1IDM0Ljk1NzAzMS0zMi45OTIxODcgMTQuNzY5NTMyIDExLjg3ODkwNiAzMC44NTU0NjkgMjMuNjU2MjUgNDguMTIxMDk0IDM1LjA2NjQwNiAxLjI1NzgxMyAyMC4yNTM5MDYgMy4zNTkzNzUgNDAuMjA3MDMxIDYuMjczNDM4IDU5LjE5OTIxOC02NC40OTYwOTQgMjMuMTQ0NTMyLTExMS41MDM5MDYgMjQuOTY4NzUtMTIxLjY4NzUgNy4zNjcxODh6bTE5My45ODgyODEgMTEyYy0yMC4zNTkzNzUgMC00Mi4yNjE3MTktNDEuNjU2MjUtNTQuMzk4NDM3LTEwOS4wNzAzMTIgMTcuODk0NTMxLTYuOTY4NzUgMzYuMjUtMTUuMTI4OTA3IDU0LjQ0MTQwNi0yNC4xNzU3ODIgMTguMTkxNDA2IDkuMDQ2ODc1IDM2LjU0Mjk2OCAxNy4yMDcwMzIgNTQuNDM3NSAyNC4xNzU3ODItMTIuMjE0ODQ0IDY3LjQxNDA2Mi0zNC4xMTcxODggMTA5LjA3MDMxMi01NC40ODA0NjkgMTA5LjA3MDMxMnptMTkzLjk5MjE4Ny0xMTJjLTEwLjE3NTc4MSAxNy42MDE1NjItNTcuMjE0ODQzIDE1Ljc3NzM0NC0xMjEuNjg3NS03LjM5MDYyNSAyLjkxNDA2My0xOC45Njg3NSA1LjAxNTYyNi0zOC45MjE4NzUgNi4yNzM0MzgtNTkuMjAzMTI1IDE3LjI2NTYyNS0xMS40MDYyNSAzMy4zNTE1NjItMjMuMTk5MjE5IDQ4LjEyMTA5NC0zNS4wNjI1IDEyLjMwNDY4NyAxMC4yODUxNTYgMjMuOTc2NTYyIDIxLjMwNDY4OCAzNC45NTcwMzEgMzIuOTkyMTg4IDI3LjczODI4MSAzMC4wMjM0MzcgMzkuODI0MjE5IDU1LjY4NzUgMzIuMzM1OTM3IDY4LjY2NDA2MnptMCAwIi8+PC9nPjwvc3ZnPg==" />
+
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">Java</h2>
+
+										<img height="200px" width="200px" class="center"
+											src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMS45OTggNTExLjk5OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjk5OCA1MTEuOTk4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojREIzODBFOyIgZD0iTTI1My40NjQsOTQuODY5Yy0yMy42NTgsMTYuNjM5LTUwLjQ3MSwzNS40OTgtNjQuODM4LDY2LjY5OQ0KCQljLTI0Ljk1NCw1NC40MzUsNTEuMDYyLDExMy44MTIsNTQuMzExLDExNi4zMTNjMC43NTUsMC41ODEsMS42NTksMC44NzEsMi41NiwwLjg3MWMwLjk1NywwLDEuOTE1LTAuMzI3LDIuNjkzLTAuOTc5DQoJCWMxLjUwOS0xLjI2MiwxLjkzNy0zLjQwNiwxLjAzMS01LjE1MmMtMC4yNzUtMC41My0yNy41NjEtNTMuNTMtMjYuNTQ3LTkxLjU1MmMwLjM1OS0xMy4yNDMsMTguODkyLTI4LjI2NiwzOC41MTItNDQuMTcxDQoJCWMxNy45Ny0xNC41NjgsMzguMzQtMzEuMDc5LDUwLjI1OC01MC4zOTRjMjYuMTY0LTQyLjUxNi0yLjkxNi04NC4zMjItMy4yMTMtODQuNzRjLTEuMTU1LTEuNjIyLTMuMjg3LTIuMjA5LTUuMTEtMS40MQ0KCQljLTEuODIxLDAuODA0LTIuODMsMi43NzMtMi40MTQsNC43MmMwLjA1OSwwLjI3Nyw1LjcxNCwyNy45MjMtMTAuMDIyLDU2LjQwNkMyODQuMjAzLDczLjI1LDI2OS45NTksODMuMjY4LDI1My40NjQsOTQuODY5eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNEQjM4MEU7IiBkPSJNMzUzLjEzNywxMTMuNjE3YzEuNjY5LTEuMjU3LDIuMTU5LTMuNTUsMS4xNS01LjM4Yy0xLjAxMS0xLjgzLTMuMjExLTIuNjM3LTUuMTY1LTEuODk1DQoJCWMtNC4wMTksMS41MjgtOTguNDE2LDM3LjkxNS05OC40MTYsODEuODhjMCwzMC4zMDcsMTIuOTQ2LDQ2LjMxNywyMi4zOTksNTguMDA5YzMuNzA4LDQuNTg2LDYuOTA5LDguNTQ2LDcuOTY0LDExLjkyNw0KCQljMi45Nyw5Ljc0My00LjA2NiwyNy4zNTMtNy4wMjUsMzMuMzE3Yy0wLjg1MywxLjcxNC0wLjQzNSwzLjc5MiwxLjAxNiw1LjA0NGMwLjc4NCwwLjY3NywxLjc2MywxLjAyMSwyLjc0MywxLjAyMQ0KCQljMC44MzQsMCwxLjY3Mi0wLjI0OCwyLjM5Ni0wLjc1MmMxLjYyMy0xLjEyOCwzOS42NjctMjguMDI2LDMyLjg0NC02MC40MzNjLTIuNTQyLTEyLjMxOC04LjU5NS0yMS4zMTgtMTMuOTM2LTI5LjI2DQoJCWMtOC4yNzQtMTIuMzA1LTE0LjI1LTIxLjE5My01LjE4NC0zNy42MDlDMzA0LjU0NSwxNTAuMzM4LDM1Mi42NSwxMTMuOTgxLDM1My4xMzcsMTEzLjYxN3oiLz4NCjwvZz4NCjxnPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNMTA3LjQxOCwyOTguMjM2Yy0xLjYxOCw0Ljg0NS0wLjg1NCw5LjY1MSwyLjIwNywxMy45MDNjMTAuMjMzLDE0LjIwNyw0Ni40OCwyMi4wMjksMTAyLjA2OCwyMi4wMjkNCgkJYzAuMDAzLDAsMC4wMDUsMCwwLjAwNywwYzcuNTMyLDAsMTUuNDg0LTAuMTQ4LDIzLjYyOS0wLjQ0Yzg4Ljg3NS0zLjE4MSwxMjEuODM5LTMwLjg2OSwxMjMuMTk5LTMyLjA0Ng0KCQljMS40ODItMS4yODMsMS44NzgtMy40MTksMC45NTctNS4xNDdjLTAuOTIyLTEuNzI3LTIuOTA5LTIuNTk1LTQuODA4LTIuMDcyYy0zMS4zMDEsOC41NDYtODkuNzQ4LDExLjU4LTEzMC4yODgsMTEuNTgNCgkJYy00NS4zNjMsMC02OC40NjUtMy4yNjgtNzQuMTIxLTUuNjgxYzIuOTAyLTMuOTg1LDIwLjgwMi0xMS4xMDEsNDIuOTgzLTE1LjQ2NGMyLjEyLTAuNDE2LDMuNTc3LTIuMzc0LDMuMzY3LTQuNTI0DQoJCXMtMi4wMTYtMy43OS00LjE3Ny0zLjc5QzE3OS40MzksMjc2LjU4NCwxMTQuMjM0LDI3Ny42MjgsMTA3LjQxOCwyOTguMjM2eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNNDA0LjgxMiwyNjkuNzE4Yy0xOC4zMzEsMC0zNS43MTQsOS4xODgtMzYuNDQ2LDkuNTc3Yy0xLjY5NSwwLjkwOC0yLjU1NSwyLjg1Mi0yLjA5LDQuNzINCgkJYzAuNDY3LDEuODY1LDIuMTQ0LDMuMTc2LDQuMDY3LDMuMTc4YzAuMzg5LDAsMzkuMTAyLDAuMzE3LDQyLjYwOCwyMi40MzZjMy4xMDYsMTkuMDgyLTM2LjYyOSw1MC01Mi4yMDIsNjAuMzA0DQoJCWMtMS42ODIsMS4xMTMtMi4zMzUsMy4yNjMtMS41NTQsNS4xMjNjMC42NjUsMS41ODMsMi4yMDYsMi41NzMsMy44NjgsMi41NzNjMC4yOSwwLDAuNTg0LTAuMDMsMC44NzYtMC4wOTINCgkJYzMuNjk2LTAuNzkxLDkwLjQwNi0xOS44OTksODEuMjM4LTcwLjM4NEM0MzkuNTg0LDI3Ni4yMTMsNDIwLjEzOCwyNjkuNzE4LDQwNC44MTIsMjY5LjcxOHoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojNzNBMUZCOyIgZD0iTTM0NS4zNDcsMzYzLjc1NWMwLjMwMi0xLjYxNy0wLjM3MS0zLjI2Mi0xLjcxNy00LjIwN2wtMjAuNzkxLTE0LjU2Mw0KCQljLTEuMDE0LTAuNzEtMi4yOTUtMC45MzMtMy40ODUtMC42MThjLTAuMjE3LDAuMDU1LTIxLjk1OSw1Ljc3MS01My41MjUsOS4yNzZjLTEyLjUyOCwxLjQwNS0yNi41NiwyLjE0Ny00MC41ODIsMi4xNDcNCgkJYy0zMS41NTgsMC01Mi4xOTItMy43MDgtNTUuMTk3LTYuNDI4Yy0wLjM5OC0wLjc2NC0wLjI3Mi0xLjExMS0wLjIwMS0xLjMwNGMwLjU0Ni0xLjUxOCwzLjQ3Mi0zLjMyMiw1LjM1OC00LjAzNg0KCQljMi4wODMtMC43NzEsMy4yMDYtMy4wMzMsMi41NTgtNS4xNTdjLTAuNjQ2LTIuMTI3LTIuODM3LTMuMzc4LTQuOTk5LTIuODU5Yy0yMC44NTYsNS4wMzMtMzEuMDU0LDEyLjA3MS0zMC4zMTIsMjAuOTE4DQoJCWMxLjMxOCwxNS42ODYsMzcuNjUsMjMuNzM3LDY4LjM2NSwyNS44NjVjNC40MTcsMC4zMDIsOS4xOTQsMC40NTUsMTQuMTk1LDAuNDU1YzAuMDAzLDAsMC4wMDUsMCwwLjAwOCwwDQoJCWM1MS4wNzQsMCwxMTYuNTUtMTYuMDI1LDExNy4yMDQtMTYuMTg4QzM0My44MjUsMzY2LjY2NiwzNDUuMDQ0LDM2NS4zNzUsMzQ1LjM0NywzNjMuNzU1eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNMTg4LjYwMiwzOTcuNDE5YzEuNTc1LTEuMDI0LDIuMjczLTIuOTcxLDEuNzE0LTQuNzY0Yy0wLjU1Ny0xLjc5My0yLjIzNC0yLjk3MS00LjExOC0yLjk0Ng0KCQljLTIuNzk1LDAuMDc0LTI3LjM0OSwxLjE4Mi0yOS4wNjgsMTYuODE1Yy0wLjUyLDQuNjcyLDAuODE4LDguOTQxLDMuOTc5LDEyLjY4NmM4LjgxNiwxMC40NDgsMzIuNjE0LDE2LjY1OCw3Mi43NDEsMTguOTg0DQoJCWM0Ljc0NywwLjI4NSw5LjU2OSwwLjQyOCwxNC4zMzQsMC40MjhjNTEuMDE1LDAsODUuMzczLTE1Ljk3Myw4Ni44MTItMTYuNjUzYzEuMzk1LTAuNjYsMi4zMTUtMi4wMzEsMi4zOTctMy41NzENCgkJcy0wLjY4Ny0zLjAwMS0yLjAwMy0zLjgwNmwtMjYuMjc1LTE2LjA0Yy0wLjkxMi0wLjU1Ni0yLjAwMy0wLjc0LTMuMDQzLTAuNTI3Yy0wLjE2NiwwLjAzNS0xNi44NDksMy40OTUtNDIuMDI2LDYuOTEzDQoJCWMtNC43NjQsMC42NDgtMTAuNzMsMC45NzctMTcuNzMsMC45NzdjLTI1LjE1LDAtNTMuMTI0LTQuMTA5LTU4LjQ4OS02LjhDMTg3Ljc0OSwzOTguNjEzLDE4Ny44NDgsMzk3Ljk3NSwxODguNjAyLDM5Ny40MTl6Ii8+DQoJPHBhdGggc3R5bGU9ImZpbGw6IzczQTFGQjsiIGQ9Ik0yMjQuNDA4LDQ4Ni44NWMxMTYuODU0LTAuMDk5LDE3OS41NzEtMjAuODgsMTkxLjY1My0zMy45NTdjNC4yNzctNC42MjYsNC43MzktOS4wMDYsNC4zNzYtMTEuODY3DQoJCWMtMC44OTgtNy4wNC03LjMxMS0xMS4zNS04LjAzOC0xMS44MThjLTEuNzU0LTEuMTI4LTQuMTA4LTAuODMzLTUuNDc2LDAuNzQ1Yy0xLjM2NSwxLjU3OC0xLjM5NywzLjg4NC0wLjAyNyw1LjQ2MQ0KCQljMC43MzcsMC45NDgsMS4xNjMsMi41MzUtMC45OTIsNC42OTJjLTQuODMsNC41MTEtNTMuNTQ1LDE4LjIwNC0xMzQuNjU2LDIyLjMxOGMtMTEuMTExLDAuNTc3LTIyLjc2NSwwLjg3MS0zNC42MzYsMC44NzMNCgkJYy03Mi42MjMsMC0xMjUuNzcyLTkuOTQ4LTEzMi43NDktMTUuNzQ0YzIuNjg5LTMuODY0LDIxLjQ4OS0xMC4wMzcsNDEuNDgyLTEzLjUyOWMyLjI1My0wLjM5MywzLjc3NS0yLjUxNiwzLjQyNi00Ljc3Ng0KCQljLTAuMzQ5LTIuMjU5LTIuNDMyLTMuODE0LTQuNzA5LTMuNTE5Yy0wLjU2NCwwLjA3Ny0yLjQ3OCwwLjE5MS00LjY5NCwwLjMyN2MtMzIuOTg4LDIuMDE0LTcxLjEwOSw2LjUwMy03My4wOTgsMjMuNQ0KCQljLTAuNjA0LDUuMTc5LDAuOTM1LDkuODgxLDQuNTc2LDEzLjk3M2M4LjkwOSwxMC4wMSwzNC41MTYsMjMuMzE5LDE1My41NTgsMjMuMzE5QzIyNC40MDYsNDg2Ljg1LDIyNC40MDYsNDg2Ljg1LDIyNC40MDgsNDg2Ljg1eiINCgkJLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojNzNBMUZCOyIgZD0iTTQzOS4wMTMsNDU2LjU3OGMtMS42NTItMC43NjQtMy42MDQtMC4zNzgtNC44MzYsMC45NTJjLTAuMTcxLDAuMTg1LTE3Ljc0LDE4LjU1Ni03MC41NjQsMjkuMzQ0DQoJCWMtMjAuMjIzLDQuMDUyLTU4LjE4Myw2LjEwNy0xMTIuODI2LDYuMTA3Yy01NC43NDUsMC0xMDYuODM4LTIuMTU0LTEwNy4zNTctMi4xNzZjLTIuMTc2LTAuMTA2LTQuMDM3LDEuNDc2LTQuMzMzLDMuNjE4DQoJCWMtMC4yOTcsMi4xNCwxLjA4Myw0LjE1OCwzLjE4NCw0LjY1OGMwLjU0MiwwLjEyOCw1NS4xMzUsMTIuOTE4LDEyOS43NzksMTIuOTE4YzM1LjgwMSwwLDcwLjYzOS0yLjkwNywxMDMuNTQ4LTguNjQ1DQoJCWM2MS4zNjEtMTAuNzU3LDY1LjY1Ny00MS4xODMsNjUuODEtNDIuNDczQzQ0MS42MzIsNDU5LjA3OCw0NDAuNjYyLDQ1Ny4zNDIsNDM5LjAxMyw0NTYuNTc4eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">Javascript</h2>
+										<img height="200px" width="200px" class="center"
+											src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6I0U0QkE0MjsiIGQ9Ik01MTIsMjU2YzAsMzMuMzUzLTYuMzc0LDY1LjIxMi0xNy45ODMsOTQuNDM4Yy02LjIwNywxNS42MzItMTMuOTA4LDMwLjUxMS0yMi45MzYsNDQuNDUNCgljLTExLjI0MywxNy4zODctMjQuNTQ1LDMzLjMyMi0zOS41NDksNDcuNDQ5Yy04Ljc4OCw4LjI4Ni0xOC4xNSwxNS45NDUtMjguMDM1LDIyLjkyNUMzNjEuODA2LDQ5NC43MDcsMzEwLjkzLDUxMiwyNTYsNTEyDQoJcy0xMDUuODA2LTE3LjI5My0xNDcuNDk4LTQ2LjczOGMtMTIuMzcyLTguNzM1LTIzLjkyOC0xOC41MjYtMzQuNTM0LTI5LjI2OEMyOC4yMzMsMzg5Ljc1NywwLDMyNi4xNjUsMCwyNTYNCglTMjguMjMzLDEyMi4yNDMsNzMuOTY4LDc2LjAwNmMxMS4yMzMtMTEuMzY4LDIzLjUzMS0yMS42ODIsMzYuNzI4LTMwLjc5M0MxNTEuOTcsMTYuNjk3LDIwMi4wMzEsMCwyNTYsMA0KCXMxMDQuMDMsMTYuNjk3LDE0NS4zMDQsNDUuMjEzYzEwLjA4Myw2Ljk0OSwxOS42MzQsMTQuNjE4LDI4LjU4OCwyMi45MjVjMTUuNjg0LDE0LjUwMywyOS41MzksMzAuOTYsNDEuMTksNDguOTc0DQoJYzkuMDI4LDEzLjkzOSwxNi43MjksMjguODE4LDIyLjkzNiw0NC40NUM1MDUuNjI2LDE5MC43ODgsNTEyLDIyMi42NDcsNTEyLDI1NnoiLz4NCjxnPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNGMkYyRjI7IiBkPSJNMzkxLjA1LDIzMi45N2MtNy4xMjUtMjAuNjY0LTM2LjM0MS0yMC42NjQtNDIuMDQtMy41NjNjLTUuNywxNy4xMDEsMTMuNTM5LDI3LjA3Niw0My40NjYsMzcuMDUzDQoJCWMyOS45MjcsOS45NzYsNDguNDU0LDM2LjM0MSw0NC44OTEsNTkuODU0cy0xMy41MzksNTQuMTU0LTcyLjY4LDU0LjE1NGMtMzYuOTYzLDAtNTcuNTA1LTIzLjEwMy02Ny43MTQtNDAuNDI5bDMzLjUxMS0yMC4xMzgNCgkJYzAsMCwxMS40MDEsMjQuMjI3LDMyLjc3NywyNC4yMjdjMjEuMzc3LDAsMjkuOTI3LTcuMTI1LDI5LjkyNy0yMy41MTRjMC0xOS45NTEtNjkuMTE4LTI3LjA3Ni03OS44MDYtNjEuMjc5DQoJCXMzLjU2My04Mi42NTYsNTMuNDQxLTc5LjA5NGMzMS4xNzUsMi4yMjcsNDguNzEsMTcuNTM1LDU3LjQ3OCwyOC43MDNMMzkxLjA1LDIzMi45N3oiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRjJGMkYyOyIgZD0iTTIzNS43MTQsMTgzLjgwNWMwLDAsMCwxMjAuNDIxLDAsMTM2LjgxYzAsMTYuMzg4LTE0LjI1MSwyNC45NC0yOC41MDIsMjIuMDg5DQoJCWMtMTQuMjUxLTIuODUtMjAuNjY0LTE5Ljk1MS0yMC42NjQtMTkuOTUxbC0zMi43NzcsMjIuMDg5YzAsMCw3LjEyNSwzMi43NzcsNTIuMDE2LDM1LjYyOA0KCQljNDQuODkxLDIuODUsNzAuNTQyLTI0LjIyNyw3MC41NDItNDcuMDI5czAtMTQ5LjYzNiwwLTE0OS42MzZMMjM1LjcxNCwxODMuODA1TDIzNS43MTQsMTgzLjgwNXoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRjJGMkYyOyIgZD0iTTczLjk2OCw0NS4yMTN2MzkwLjc4MWMxMC42MDYsMTAuNzQyLDIyLjE2MiwyMC41MzIsMzQuNTM0LDI5LjI2OGgyOTQuOTk2DQoJCWM5Ljg4NS02Ljk4LDE5LjI0Ny0xNC42MzksMjguMDM1LTIyLjkyNUg5Ni44OTNWNjguMTM4aDM3NC4xODh2MzI2Ljc1YzkuMDI4LTEzLjkzOSwxNi43MjktMjguODE4LDIyLjkzNi00NC40NVY0NS4yMTNINzMuOTY4eiIvPg0KPC9nPg0KPGNpcmNsZSBzdHlsZT0iZmlsbDojM0Y0QTQzOyIgY3g9Ijg3Ljg1NSIgY3k9IjMzOS4xNDMiIHI9IjQwLjYxNSIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+
+										<img alt="html" height="200px" width="200px" class="center"
+											src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
+									</div>
+								</div>
+
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+
+										<img class="center"
+											src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBvbHlnb24gc3R5bGU9ImZpbGw6IzIxOTZGMzsiIHBvaW50cz0iMzIsMCA3Mi44LDQ2MC44IDI1Niw1MTIgNDM5LjEzNiw0NjAuODMyIDQ4MCwwICIvPg0KPHBvbHlnb24gc3R5bGU9ImZpbGw6I0ZBRkFGQTsiIHBvaW50cz0iMzkyLjc2OCwxNTAuNjg4IDM4Ny42MTYsMjA4LjU3NiAzNzIuMDY0LDM4Mi4xMTIgMjU2LDQxNC4yMDggMjU1LjkwNCw0MTQuMjQgDQoJMTM5LjkwNCwzODIuMTEyIDEzMS44MDgsMjkxLjM2IDE4OC42NCwyOTEuMzYgMTkyLjg2NCwzMzguNDMyIDI1NS45MzYsMzU1LjQ1NiAyNTUuOTY4LDM1NS40MjQgMzE5LjEzNiwzMzguNCAzMjcuNzQ0LDI1OS45NjggDQoJMTI5LjA4OCwyNjAuNTEyIDEyMy40NTYsMjA2Ljg4IDMzMi41MTIsMjA0LjQxNiAzMzYuNzM2LDE0Ny4wMDggMTE3Ljg1NiwxNDcuNjE2IDExNC4xNzYsOTQuMjA4IDI1Niw5NC4yMDggMzk3LjgyNCw5NC4yMDggIi8+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" />
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">Firebase</h2>
+
+
+										<img alt="firebase" height="200px" width="200px" class="center"
+											src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png" />
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">Angular</h2>
+
+
+										<img alt="firebase" height="200px" width="200px" class="center"
+											src="./images/angular.png" />
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">Laravel</h2>
+
+
+										<img alt="firebase" height="200px" width="200px" class="center"
+											src="./images/laravel.png" />
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">MySQL</h2>
+										<img class="center"
+											src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGQ9Ik0zMi45OTgsODMuNzgyQzM5LjgwNSw0Mi4yNDgsMTM3LjAyNCw5LjMwOSwyNTYsOS4zMDl2NDkzLjM4Mg0KCQljLTExOC45NzUsMC0yMTYuMTk0LTMyLjk0MS0yMjMuMDAyLTc0LjQ3M2gtMC40MTZWODMuNzgySDMyLjk5OHoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojN0ZBQ0ZBOyIgZD0iTTQ3OS4wMDIsODMuNzgyQzQ3Mi4xOTUsNDIuMjQ4LDM3NC45NzYsOS4zMDksMjU2LDkuMzA5djQ5My4zODINCgkJYzExOC45NzUsMCwyMTYuMTk0LTMyLjk0MSwyMjMuMDAyLTc0LjQ3M2gwLjQxNlY4My43ODJINDc5LjAwMnoiLz4NCgk8Zz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6I0E0QzJGNzsiIGQ9Ik00NTEuMDc1LDgzLjc4Mkw0NTEuMDc1LDgzLjc4MmMtNi44MDctNDEuNTM0LTQ4LjE3Mi03NC40NzMtMTY3LjE0OC03NC40NzMNCgkJCVM2Ny43MzIsNDIuMjQ4LDYwLjkyNSw4My43ODJoLTAuNDE2djM0NC40MzZoMC40MTZjNi44MDgsNDEuNTMyLDEwNC4wMjcsNzQuNDczLDIyMy4wMDIsNzQuNDczczE2MC4zNC0zMi45NDEsMTY3LjE0OC03NC40NzMNCgkJCWgwLjQxNlY4My43ODJINDUxLjA3NXoiLz4NCgkJPGVsbGlwc2Ugc3R5bGU9ImZpbGw6I0E0QzJGNzsiIGN4PSIyNzkuMjczIiBjeT0iOTMuMDkxIiByeD0iMjA5LjQ1NSIgcnk9IjgzLjc4MiIvPg0KCTwvZz4NCgk8ZWxsaXBzZSBzdHlsZT0iZmlsbDojRkZGRkZGOyIgY3g9IjI0Mi4wMzYiIGN5PSI5My4wOTEiIHJ4PSIyMDkuNDU1IiByeT0iODMuNzgyIi8+DQoJDQoJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iLTQ4LjY0NjciIHkxPSI2NTIuMzA1MiIgeDI9Ii00OC4xMDI2IiB5Mj0iNjUxLjAzNTYiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMzkwLjk4MTggMCAwIC0xNjcuNTYzNiAxOTE2OS42MjExIDEwOTI4OS4zNTk0KSI+DQoJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNENEUxRjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC4xNzE3IiBzdHlsZT0ic3RvcC1jb2xvcjojRDRFMUY0Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuMiIgc3R5bGU9InN0b3AtY29sb3I6I0Q0RTFGNCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjIwMDEiIHN0eWxlPSJzdG9wLWNvbG9yOiNEQUU0RjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC4yMDA3IiBzdHlsZT0ic3RvcC1jb2xvcjojRUJFQkY0Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuMjAxNCIgc3R5bGU9InN0b3AtY29sb3I6I0Y2RjFGNCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjIwMjMiIHN0eWxlPSJzdG9wLWNvbG9yOiNGREY0RjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC4yMDUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkY1RjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC4yNTIyIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGNUY0Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuMjYiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkY1RjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC4yNiIgc3R5bGU9InN0b3AtY29sb3I6I0Q0RTFGNCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjM5NzQiIHN0eWxlPSJzdG9wLWNvbG9yOiNENEUxRjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC40MiIgc3R5bGU9InN0b3AtY29sb3I6I0Q0RTFGNCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjQyMDEiIHN0eWxlPSJzdG9wLWNvbG9yOiNEQUU0RjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC40MjA3IiBzdHlsZT0ic3RvcC1jb2xvcjojRUJFQkY0Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuNDIxNCIgc3R5bGU9InN0b3AtY29sb3I6I0Y2RjFGNCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjQyMjMiIHN0eWxlPSJzdG9wLWNvbG9yOiNGREY0RjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC40MjUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkY1RjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC40ODk0IiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGNUY0Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuNSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRjVGNCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGOUYyRjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC41MDAxIiBzdHlsZT0ic3RvcC1jb2xvcjojRThFQkY0Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuNTAwMyIgc3R5bGU9InN0b3AtY29sb3I6I0RERTVGNCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjUwMDUiIHN0eWxlPSJzdG9wLWNvbG9yOiNENkUyRjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC41MDEiIHN0eWxlPSJzdG9wLWNvbG9yOiNENEUxRjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC43MDYyIiBzdHlsZT0ic3RvcC1jb2xvcjojRDRFMUY0Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuNzQiIHN0eWxlPSJzdG9wLWNvbG9yOiNENEUxRjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC43NDEiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkY1RjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC44MzQ2IiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGNUY0Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuODUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkY1RjQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC44NTEiIHN0eWxlPSJzdG9wLWNvbG9yOiNENEUxRjQiLz4NCgk8L2xpbmVhckdyYWRpZW50Pg0KCTxlbGxpcHNlIHN0eWxlPSJmaWxsOnVybCgjU1ZHSURfMV8pOyIgY3g9IjI1NiIgY3k9IjkzLjA5MSIgcng9IjE5NS40OTEiIHJ5PSI4My43ODIiLz4NCgk8Zz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6IzQyOERGRjsiIGQ9Ik0yNTYsNTEyYy0xMjIuMjgyLDAtMjIwLjY0NS0zNC4wMTgtMjMxLjYzNi03OS41ODJjLTAuNzExLTEuMjg2LTEuMDg3LTIuNzMxLTEuMDkxLTQuMlY4My43ODINCgkJCWMtMC4wMDQtMS41NzgsMC4zOTYtMy4xMywxLjE2NC00LjUwOUMzNS43ODIsMzMuODczLDEzMy45ODIsMCwyNTYsMHMyMjAuMjE4LDMzLjg3MywyMzEuNTY0LDc5LjI3Mw0KCQkJYzAuNzY3LDEuMzc5LDEuMTY4LDIuOTMxLDEuMTY0LDQuNTA5djM0NC40MzZjMC4wMDQsMS41NzgtMC4zOTYsMy4xMy0xLjE2NCw0LjUwOUM0NzYuMjA5LDQ3OC4xMjcsMzc4LjAwOSw1MTIsMjU2LDUxMnoNCgkJCSBNNDEuODkxLDQyNS40OTFjMC4xMjksMC4zOTgsMC4yMjksMC44MDYsMC4zLDEuMjE4YzUuMjczLDMyLjIsOTIuNDU1LDY2LjY3MywyMTMuODA5LDY2LjY3M3MyMDguNTM2LTM0LjQ3MywyMTMuODA5LTY2LjY3Mw0KCQkJYzAuMDcyLTAuNDI0LDAuMTcyLTAuODQ0LDAuMy0xLjI1NVY4Ni41MDljLTAuMTI5LTAuNDAyLTAuMjI5LTAuODEyLTAuMy0xLjIyN0M0NjQuNTQ1LDUzLjA5MSwzNzcuMzczLDE4LjYxOCwyNTYsMTguNjE4DQoJCQlTNDcuNDU1LDUzLjA5MSw0Mi4xOTEsODUuMjgyYy0wLjA3MSwwLjQyOC0wLjE3MSwwLjg1LTAuMywxLjI2NFY0MjUuNDkxeiIvPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojNDI4REZGOyIgZD0iTTI1Niw0MTguOTA5Yy0xMjIuMjgyLDAtMjIwLjY0NS0zNC4wMTgtMjMxLjYzNi03OS41ODJjLTAuNzExLTEuMjg2LTEuMDg3LTIuNzMtMS4wOTEtNC4yVjIxNC4xMDkNCgkJCWMwLTUuMTQxLDQuMTY4LTkuMzA5LDkuMzA5LTkuMzA5czkuMzA5LDQuMTY4LDkuMzA5LDkuMzA5YzAsMzUuMTU1LDkxLjU2NCw3NC40NzMsMjE0LjEwOSw3NC40NzNzMjE0LjEwOS0zOS4zMTgsMjE0LjEwOS03NC40NzMNCgkJCWMwLTUuMTQxLDQuMTY4LTkuMzA5LDkuMzA5LTkuMzA5YzUuMTQxLDAsOS4zMDksNC4xNjgsOS4zMDksOS4zMDl2MTIxLjAxOGMwLjAwNCwxLjU3OC0wLjM5NiwzLjEzLTEuMTY0LDQuNTA5DQoJCQlDNDc2LjIwOSwzODUuMDM2LDM3OC4wMDksNDE4LjkwOSwyNTYsNDE4LjkwOXogTTQxLjg5MSwzMzIuNGMwLjEyOSwwLjM5OCwwLjIyOSwwLjgwNiwwLjMsMS4yMTgNCgkJCWM1LjI3MywzMi4yLDkyLjQ1NSw2Ni42NzMsMjEzLjgwOSw2Ni42NzNzMjA4LjUzNi0zNC40NzMsMjEzLjgwOS02Ni42NzNjMC4wNzItMC40MjQsMC4xNzItMC44NDQsMC4zLTEuMjU1di04MS43NzINCgkJCUM0MzQuNTY0LDI4My44MzYsMzUxLjk3MywzMDcuMiwyNTYsMzA3LjJTNzcuNDM2LDI4My44MzYsNDEuODkxLDI1MC41OTFWMzMyLjR6Ii8+DQoJCTxwYXRoIHN0eWxlPSJmaWxsOiM0MjhERkY7IiBkPSJNMjU2LDMwNy4yYy0xMjIuMjgyLDAtMjIwLjY0NS0zNC4wMTgtMjMxLjYzNi03OS41ODJjLTAuNzExLTEuMjg2LTEuMDg3LTIuNzMtMS4wOTEtNC4yVjEwMi40DQoJCQljMC01LjE0MSw0LjE2OC05LjMwOSw5LjMwOS05LjMwOXM5LjMwOSw0LjE2OCw5LjMwOSw5LjMwOWMwLDM1LjE1NSw5MS41NjQsNzQuNDczLDIxNC4xMDksNzQuNDczczIxNC4xMDktMzkuMzE4LDIxNC4xMDktNzQuNDczDQoJCQljMC01LjE0MSw0LjE2OC05LjMwOSw5LjMwOS05LjMwOWM1LjE0MSwwLDkuMzA5LDQuMTY4LDkuMzA5LDkuMzA5djEyMS4wMThjMC4wMDQsMS41NzgtMC4zOTYsMy4xMy0xLjE2NCw0LjUwOQ0KCQkJQzQ3Ni4yMDksMjczLjMyNywzNzguMDA5LDMwNy4yLDI1NiwzMDcuMnogTTQxLjg5MSwyMjAuNjkxYzAuMTI5LDAuMzk4LDAuMjI5LDAuODA2LDAuMywxLjIxOA0KCQkJYzUuMjczLDMyLjIsOTIuNDU1LDY2LjY3MywyMTMuODA5LDY2LjY3M3MyMDguNTM2LTM0LjQ3MywyMTMuODA5LTY2LjY3M2MwLjA3Mi0wLjQyNCwwLjE3Mi0wLjg0NCwwLjMtMS4yNTV2LTgxLjc3Mg0KCQkJQzQzNC41NjQsMTcyLjEyNywzNTEuOTczLDE5NS40OTEsMjU2LDE5NS40OTFTNzcuNDM2LDE3Mi4xMjcsNDEuODkxLDEzOC44ODJWMjIwLjY5MXoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" />
+
+
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">Nodejs</h2>
+
+
+										<img alt="firebase" height="200px" width="200px" class="center"
+											src="./images/Node.png" />
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
+										<img height="200px" class="center" width="200px" src="./images/python.png" />
+
+
+									</div>
+								</div>
+								<div class="col-lg-4 mb-4">
+									<div class="bg-white rounded-lg shadow p-4">
+										<h2 class="h5 font-weight-bold text-center mb-4">PHP</h2>
+										<img height="200px" width="200px" class="center" src="./images/php.png" />
+
+
+									</div>
+								</div>
+
+							</div>
+
+							<!-- Adding card with flip design -->
+
+
+							<!-- <div class="row">
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Java</h3>
+										<div class="progress">
+											<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
+												aria-valuemin="0" aria-valuemax="100" style="width:90%">
+												<span>80%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>MySQL</h3>
+										<div class="progress">
+											<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+												aria-valuemin="0" aria-valuemax="100" style="width:85%">
+												<span>85%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Javascript</h3>
+										<div class="progress">
+											<div class="progress-bar color-3" role="progressbar" aria-valuenow="70"
+												aria-valuemin="0" aria-valuemax="100" style="width:70%">
+												<span>70%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Python</h3>
+										<div class="progress">
+											<div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+												aria-valuemin="0" aria-valuemax="100" style="width:75%">
+												<span>70%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Data Structures</h3>
+										<div class="progress">
+											<div class="progress-bar color-5" role="progressbar" aria-valuenow="85"
+												aria-valuemin="0" aria-valuemax="100" style="width:85%">
+												<span>85%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>NodeJS</h3>
+										<div class="progress">
+											<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+												aria-valuemin="0" aria-valuemax="100" style="width:80%">
+												<span>80%</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+							<div id="page-4" class="page four">
+								<h2 class="heading">Awards and Certifications</h2>
+								<div class="resume-wrap d-flex ftco-animate">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="flaticon-ideas"></span>
+									</div>
+									<div class="text pl-3">
+										<span class="date">2020</span>
+										<h2>Gold badge in Java and 30 days of code</h2>
+										<span class="position">HackerRank</span>
+										<p>Achieved 5 star in Java and 30 days of code on an online programming platform
+											titled HackerRank
+											<br>You can check here: <a
+												href="https://www.hackerrank.com/hiteshparate77">HackerRank
+												Profile</a></br>
+										</p>
+									</div>
+								</div>
+
+								<div class="resume-wrap d-flex ftco-animate">
+
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="flaticon-ideas"></span>
+									</div>
+									<div class="text pl-3">
+										<span class="date">2020</span>
+										<h2>Gold badge in Problem Solving</h2>
+										<span class="position">HackerRank</span>
+										<p>Achieved 5 star in problem solving on an online programming platform titled
+											HackerRank
+											<br>You can check here: <a target="_blank"
+												href="https://www.hackerrank.com/certificates/81d70da7eb8c">View
+												Certificate</a></br>
+										</p>
+									</div>
+								</div>
+								<div class="resume-wrap d-flex ftco-animate">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="flaticon-ideas"></span>
+									</div>
+									<div class="text pl-3">
+										<span class="date">2020</span>
+										<h2>Gold badge in Python</h2>
+										<span class="position">HackerRank</span>
+										<p>Achieved a Gold badge in Python(Basic) on an online programming platform
+											titled HackerRank
+											and practicing my Problem-solving skills
+											<br>You can check here: <a target="_blank"
+												href="https://www.hackerrank.com/certificates/7d20fefd5198">View
+												Certificate</a></br>
+										</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+	</section>
+
+
+	<section class="ftco-section ftco-project" id="projects-section">
+
+
+		<div class="container-fluid px-md-0">
+			<div class="row no-gutters justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">My Projects</h2>
+					<p>Strategy, coding and a bit of magic</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="flip-card col-md-3">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img class="card-image" src="./images/soicalmedia.jpg" alt="Avatar">
+						</div>
+						<div class="flip-card-back">
+							<h1>Social Ape</h1>
+							<p>Social media app like Twitter</p>
+							<p>Create and delete post</p>
+							<p>comment on posts</p>
+							<p>Get real time notifications</p>
+
+							<a href="https://socialape-bf36f.firebaseapp.com/" target="_blank">
+
+								<span class="icon icon-left">
+									<i class="fas fa-external-link-alt fa-3x"></i>
+								</span></a>
+							<a href="https://github.com/hiteshparate/SocialApe2" target="_blank">
+								<span class="icon icon-right">
+									<i class="fab fa-github fa-3x"></i>
+								</span></a>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="flip-card col-md-3">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img class="card-image" src="./images/movies.jpg" alt="Avatar" />
+						</div>
+						<div class="flip-card-back">
+							<h1 class="h1">Movies</h1>
+							<p>Web Application for movie searching </p>
+							<p>movie details actors, rating etc.</p>
+							<p>Add movie into watchlist</p>
+							<a href="https://hiteshparate.github.io/moviesearch/" target="_blank">
+
+								<span class="icon  icon-left">
+									<i class="fas fa-external-link-alt fa-3x"></i>
+								</span></a>
+							<a href="https://github.com/hiteshparate/moviesearch" target="_blank">
+								<span class="icon  icon-right">
+									<i class="fab fa-github fa-3x"></i>
+								</span></a>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="flip-card col-md-3">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img class="card-image" src="./images/uspmes.jpg" alt="Avatar">
+						</div>
+						<div class="flip-card-back">
+							<h1>USPMES</h1>
+							<p>student's project management</p>
+							<p>Grading, Submissions, course enrollment </p>
+							<p>Add new courses, view logs</p>
+							<a href="https://github.com/hiteshparate/ProjectManagement" target="_blank">
+
+								<span class="icon icon-left">
+									<i class="fas fa-external-link-alt fa-3x"></i>
+								</span></a>
+							<a href="https://github.com/hiteshparate/ProjectManagement" target="_blank">
+								<span class="icon icon-right">
+									<i class="fab fa-github fa-3x"></i>
+								</span></a>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="row no-gutters">
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/sb.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/akshatparikh/Framework-as-a-Service">Framework as a
+									Service</a></h3>
+							<span>Web Design</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/se.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/akshatparikh/Web_Search_Engine">Web Search Engine</a></h3>
+							<span>Web Design</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/todo.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/akshatparikh/Todo-planner">Todo-planner</a></h3>
+							<span>NodeJS, ExpressJS,
+
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/bd.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/akshatparikh/Breast-Cancer-Detector">Breast Cancer
+									Classifier</a></h3>
+							<span>Machine Learning Project</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/po.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/akshatparikh/host">My Portfolio</a></h3>
+							<span>Web Design</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/mn.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/akshatparikh/Maybe-A-Game">Android Applicationn</a></h3>
+							<span>A Game</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+		<div class="container-fluid px-md-5">
+			<div class="row d-md-flex align-items-center">
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 shadow">
+						<div class="text">
+							<strong class="number" data-number="3">0</strong>
+							<span>Achievements</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 shadow">
+						<div class="text">
+							<strong class="number" data-number="4">0</strong>
+							<span>Complete Projects</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 shadow">
+						<div class="text">
+							<strong class="number" data-number="6">0</strong>
+							<span>Working experience in months</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 shadow">
+						<div class="text">
+							<strong class="number" data-number="50">0</strong>
+							<span>Cups of tea</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<section class="ftco-section ftco-hireme img">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>I'm <span>Available</span> for Hiring</h2>
+
+					<p class="mb-0"><a
+							href="https://drive.google.com/file/d/1IVJ6ah1SFlzBtbNKiod2Q2kZM-urVfSt/view?usp=sharing"
+							class="btn btn-primary py-3 px-5">Hire me</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Contact</h1>
+					<h2 class="mb-4">Contact Me</h2>
+
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-map-signs"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Address</h3>
+							<p>791 Assumption Street, Windsor, Ontario, N9A 3B7</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone2"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Contact Number</h3>
+							<p><a href="tel://1234567920">+ 1 519 984 5406</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Email Address</h3>
+							<p><a href="mailto:info@yoursite.com">hiteshparate77@gmail.com</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Website</h3>
+							<p><a href="#">My Portfolio</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">About</h2>
+						<p>I am a graduate student from University of Windsor in Computer Engineering. I have a keen interest in Full stack Development and have worked on projects related to Web
+							Applications using React, Angular, Laravel, Firebase, Node.js, MySQL, bootstrap, jquery,
+							express.js. I am enthusiastic and a team player. My hobbies are to watch anime and playing
+							Computer games. Feel free to connect with me and drop me a message </p>
+						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+							<li class="ftco-animate"><a href="https://www.linkedin.com/in/hiteshparate/"><span
+										class="icon-linkedin"></span></a></li>
+							<li class="ftco-animate"><a href="https://github.com/hiteshparate/" target="_blank"><span
+										class="icon-github"></span></a></li>
+
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon icon-map-marker"></span><span class="text">791 Assumption Street,
+										Windsor, Ontario, N9A 3B7</span></li>
+								<li><span class="icon icon-phone"></span><span class="text">+1 519 984 5406</span></li>
+								<li><span class="icon icon-envelope"></span><span
+										class="text">hiteshparate77@gmail.com</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen">
+		<svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg>
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+	<script src="js/name.js"></script>
+
+</body>
+
+</html>
