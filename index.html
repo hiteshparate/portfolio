@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hitesh Parate - Portfolio</title>
+
+    <link rel="icon" sizes="32x32" href="images/fa.png">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/name.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.1.0/mdb.min.css" rel="stylesheet" />
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 200px;
+            width: 200px;
+            width: 50%;
+        }
+        
+        .card-image {
+            border-radius: 40px;
+            height: 300px;
+            width: 300px;
+        }
+        
+        .flip-card {
+            background-color: transparent;
+            width: 300px;
+            height: 300px;
+            perspective: 1000px;
+        }
+        
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+            border-radius: 40px;
+        }
+        
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        
+        .flip-card-front {
+            background-color: transparent;
+            color: black;
+        }
+        
+        .flip-card-back {
+            background-color: transparent;
+            color: #3e64ff;
+            transform: rotateY(180deg);
+        }
+        
+        .flip-card-back .icon-left {
+            padding-right: 10%
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span></span>Hitesh</a>
+            <!-- <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button> -->
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto">
+                    <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                    <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                    <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                    <!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
+                    <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+                    <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
+                    <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-wrap js-fullheight">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+                <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+                    <div class="text text-center">
+
+                        <!-- <svg preserveAspectRatio="none" width="100%" height="100%">
+							<g transform="translate(100,100)" >
+								<text id="TextElement" x="1.5%" y="-20%"
+									style="font-family:Verdana;color:#3e64ff; visibility:hidden">Hitesh
+									Parate
+									<set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s"
+										fill="freeze" />
+									<animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+									<animateTransform attributeName="transform" attributeType="XML" type="rotate"
+										from="-30" to="0" begin="1s" dur="5s" fill="freeze" />
+									<animateTransform attributeName="transform" attributeType="XML" type="scale"
+										from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" />
+								</text>
+							</g>
+							Sorry, your browser does not support inline SVG.
+						</svg> -->
+                        <div class="word">
+                            <span style="color: #3e64ff;">H</span>
+                            <span style="color: #3e64ff;">I</span>
+                            <span style="color: #3e64ff;">T</span>
+                            <span style="color: #3e64ff;">E</span>
+                            <span style="color: #3e64ff;">S</span>
+                            <span style="color: #3e64ff;">H</span>
+                            <span>&nbsp</span>
+                            <span>&nbsp</span>
+                            <span>&nbsp</span>
+                            <span style="color: #3e64ff;">P</span>
+                            <span style="color: #3e64ff;">A</span>
+                            <span style="color: #3e64ff;">R</span>
+                            <span style="color: #3e64ff;">A</span>
+                            <span style="color: #3e64ff;">T</span>
+                            <span style="color: #3e64ff;">E</span>
+
+                        </div>
+                        <h2>I'm a
+                            <span class="txt-rotate" data-period="2000" data-rotate='[ "Full Stack Developer" ]'></span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="mouse">
+            <a href="#" class="mouse-icon">
+                <div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+            </a>
+        </div>
+
+
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+        <div class="container">
+            <div class="row d-flex no-gutters">
+                <!-- <div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/mine.jpg);">
+	    				</div>
+    				</div>
+				</div> -->
+                <div class="col-md-3 col-lg-3 d-flex"></div>
+                <div class="col-md-6 col-lg-6 pl-md-5 py-5">
+                    <div class="row justify-content-start pb-3">
+
+                        <div class="col-md-12 heading-section ftco-animate">
+
+                            <h1 class="big">About</h1>
+                            <h2 class="mb-4">About Me</h2>
+
+                            <ul class="about-info mt-4 px-md-0 px-2">
+                                <li class="d-flex"><span>Name:</span> <span>Hitesh Parate</span></li>
+                                <li class="d-flex"><span>Date of birth:</span> <span>November 30,1996</span></li>
+                                <li class="d-flex"><span>Address:</span> <span>791 Assumption Street, Windsor</span>
+                                </li>
+                                <li class="d-flex"><span>Zip code:</span> <span>N9A 3B7</span></li>
+                                <li class="d-flex"><span>Email:</span> <span>hiteshparate77@gmail.com</span></li>
+                                <li class="d-flex"><span>Phone: </span> <span>+1-519-984-5406</span></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-lg-3 d-flex"></div>
+
+                    <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                        <div class="text">
+
+                            <p><a href="https://drive.google.com/file/d/1IVJ6ah1SFlzBtbNKiod2Q2kZM-urVfSt/view?usp=sharing" class="btn btn-primary py-3 px-3">Download Resume</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-md-3">
+					<nav id="navi">
+						<ul>
+							<li><a href="#page-1">Education</a></li>
+							<li><a href="#page-2">Experience</a></li>
+							<li><a href="#page-3">Skills</a></li>
+							<li><a href="#page-4">Awards</a></li>
+						</ul>
+					</nav>
+				</div> -->
+                <div class="col-md-1"></div>
+                <div class="col-md-9">
+                    <div id="page-1" class="page one">
+                        <h2 class="heading">Education</h2>
+
+                        <div class="resume-wrap d-flex ftco-animate">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="flaticon-ideas"></span>
+                            </div>
+                            <div class="text pl-3">
+                                <span class="date">2019-2020</span>
+                                <h2>Master in Computer Engineering</h2>
+                                <span class="position">University of Windsor</span>
+
+                            </div>
+                        </div>
+
+                        <div class="resume-wrap d-flex ftco-animate">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="flaticon-ideas"></span>
+                            </div>
+                            <div class="text pl-3">
+                                <span class="date">2014-2018</span>
+                                <h2>Bachelor in Information and Communication Technology</h2>
+                                <span class="position">Dhirubhai Ambani Institute, India</span>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div id="page-2" class="page two">
+                        <h2 class="heading">Experience</h2>
+
+
+                        <div class="resume-wrap d-flex ftco-animate">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="flaticon-ideas"></span>
+                            </div>
+                            <div class="text pl-3">
+                                <span class="date">October 2018 - February 2019</span>
+                                <h2>Full Stack Developer Intern</h2>
+                                <span class="position">Tops Technologies</span>
+                                <p>• Created a Web Application named "Workhunter"
+                                    <br>• In this application, people can find developers to implement their projects and developers can find projects to work on
+                                    <br>• Learned Angular framework, bootstrap, MySQL, Node.js
+                                    <br>• Learned soft skills like communication, teamwork and problem solving
+                                </p>
+
+                            </div>
+                        </div>
+                        <div id="page-3" class="page three">
+                            <h2 class="heading"> Technical Skills</h2>
+                            <div class="row progress-circle mb-5">
+
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">React</h2>
+                                        <img alt="react" class="center" src="./images/react.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">Java</h2>
+
+                                        <img height="200px" width="200px" class="center" src="./images/java.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">Javascript</h2>
+                                        <img height="200px" width="200px" class="center" src="./images/javascript.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+
+                                        <img alt="html" height="200px" width="200px" class="center" src="./images/html.png" />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+
+                                        <img class="center" src="./images/css.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">Firebase</h2>
+
+
+                                        <img alt="firebase" height="200px" width="200px" class="center" src="./images/firebase.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">Angular</h2>
+
+
+                                        <img alt="firebase" height="200px" width="200px" class="center" src="./images/angular.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">Laravel</h2>
+
+
+                                        <img alt="firebase" height="200px" width="200px" class="center" src="./images/laravel.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">MySQL</h2>
+                                        <img class="center" src="./images/mysql.png" />
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">Nodejs</h2>
+
+
+                                        <img alt="firebase" height="200px" width="200px" class="center" src="./images/Node.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
+                                        <img class="center" src="./images/python.png" />
+
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-4">
+                                    <div class="bg-white rounded-lg shadow p-4">
+                                        <h2 class="h5 font-weight-bold text-center mb-4">PHP</h2>
+                                        <img class="center" src="./images/php.png" />
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id="page-4" class="page four">
+                                <h2 class="heading">Awards and Certifications</h2>
+                                <div class="resume-wrap d-flex ftco-animate">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="flaticon-ideas"></span>
+                                    </div>
+                                    <div class="text pl-3">
+                                        <span class="date">2020</span>
+                                        <h2>Gold badge in Java and 30 days of code</h2>
+                                        <span class="position">HackerRank</span>
+                                        <p>Achieved 5 star in Java and 30 days of code on an online programming platform titled HackerRank
+                                            <br>You can check here: <a href="https://www.hackerrank.com/hiteshparate77">HackerRank
+												Profile</a></br>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="resume-wrap d-flex ftco-animate">
+
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="flaticon-ideas"></span>
+                                    </div>
+                                    <div class="text pl-3">
+                                        <span class="date">2020</span>
+                                        <h2>Gold badge in Problem Solving</h2>
+                                        <span class="position">HackerRank</span>
+                                        <p>Achieved 5 star in problem solving on an online programming platform titled HackerRank
+                                            <br>You can check here: <a target="_blank" href="https://www.hackerrank.com/certificates/81d70da7eb8c">View
+												Certificate</a></br>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="resume-wrap d-flex ftco-animate">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="flaticon-ideas"></span>
+                                    </div>
+                                    <div class="text pl-3">
+                                        <span class="date">2020</span>
+                                        <h2>Gold badge in Python</h2>
+                                        <span class="position">HackerRank</span>
+                                        <p>Achieved a Gold badge in Python(Basic) on an online programming platform titled HackerRank and practicing my Problem-solving skills
+                                            <br>You can check here: <a target="_blank" href="https://www.hackerrank.com/certificates/7d20fefd5198">View
+												Certificate</a></br>
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+    </section>
+
+
+    <section class="ftco-section ftco-project" id="projects-section">
+
+
+        <div class="container-fluid px-md-0">
+            <div class="row no-gutters justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Projects</h1>
+                    <h2 class="mb-4">My Projects</h2>
+                    <p>Strategy, coding and a bit of magic</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="flip-card col-md-3 mb-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="card-image" src="./images/soicalmedia.jpg" alt="Avatar">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>Social Ape</h1>
+                            <p>Social media app like Twitter</p>
+                            <p>Create and delete post</p>
+                            <p>comment on posts</p>
+                            <p>Get real time notifications</p>
+
+                            <a href="https://socialape-bf36f.firebaseapp.com/" target="_blank">
+
+                                <span class="icon icon-left">
+									<i class="fas fa-external-link-alt fa-3x"></i>
+								</span></a>
+                            <a href="https://github.com/hiteshparate/SocialApe2" target="_blank">
+                                <span class="icon icon-right">
+									<i class="fab fa-github fa-3x"></i>
+								</span></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="flip-card col-md-3 mb-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="card-image" src="./images/movies.jpg" alt="Avatar" />
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="h1">Movies</h1>
+                            <p>Web Application for movie searching </p>
+                            <p>movie details actors, rating etc.</p>
+                            <p>Add movie into watchlist</p>
+                            <a href="https://hiteshparate.github.io/moviesearch/" target="_blank">
+
+                                <span class="icon  icon-left">
+									<i class="fas fa-external-link-alt fa-3x"></i>
+								</span></a>
+                            <a href="https://github.com/hiteshparate/moviesearch" target="_blank">
+                                <span class="icon  icon-right">
+									<i class="fab fa-github fa-3x"></i>
+								</span></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="flip-card col-md-3 mb-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="card-image" src="./images/uspmes.jpg" alt="Avatar">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>USPMES</h1>
+                            <p>student's project management</p>
+                            <p>Grading, Submissions, course enrollment </p>
+                            <p>Add new courses, view logs</p>
+                            <a href="https://github.com/hiteshparate/ProjectManagement" target="_blank">
+
+                                <span class="icon icon-left">
+									<i class="fas fa-external-link-alt fa-3x"></i>
+								</span></a>
+                            <a href="https://github.com/hiteshparate/ProjectManagement" target="_blank">
+                                <span class="icon icon-right">
+									<i class="fab fa-github fa-3x"></i>
+								</span></a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="flip-card col-md-3 mb-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="card-image" src="./images/chat-app.jpg" alt="Avatar" />
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="h1">Chat App</h1>
+                            <p>People can create chat rooms </p>
+                            <p>Add other people in the chat room</p>
+                            <p>person can send images also</p>
+                            <a href="https://hiteshparate.github.io/moviesearch/" target="_blank">
+
+                                <span class="icon  icon-left">
+									<i class="fas fa-external-link-alt fa-3x"></i>
+								</span></a>
+                            <a href="https://github.com/hiteshparate/moviesearch" target="_blank">
+                                <span class="icon  icon-right">
+									<i class="fab fa-github fa-3x"></i>
+								</span></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="flip-card col-md-3 mb-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="card-image" src="./images/movies.jpg" alt="Avatar" />
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="h1">Movies</h1>
+                            <p>Web Application for movie searching </p>
+                            <p>movie details actors, rating etc.</p>
+                            <p>Add movie into watchlist</p>
+                            <a href="https://hiteshparate.github.io/moviesearch/" target="_blank">
+
+                                <span class="icon  icon-left">
+									<i class="fas fa-external-link-alt fa-3x"></i>
+								</span></a>
+                            <a href="https://github.com/hiteshparate/moviesearch" target="_blank">
+                                <span class="icon  icon-right">
+									<i class="fab fa-github fa-3x"></i>
+								</span></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="flip-card col-md-3 mb-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="card-image" src="./images/word-scramble-games-Feb-2020-1280x720.jpg" alt="Avatar" />
+                        </div>
+                        <div class="flip-card-back">
+                            <h1 class="h1">Word Scrambler</h1>
+                            <p>Words are scrammbled!! </p>
+                            <p>Guess the right sentence</p>
+                            <p>After 10 correct guesses, you win!!</p>
+                            <a href="https://wordscramblerbyhp.netlify.app/" target="_blank">
+
+                                <span class="icon  icon-left">
+									<i class="fas fa-external-link-alt fa-3x"></i>
+								</span></a>
+                            <a href="https://github.com/hiteshparate/moviesearch" target="_blank">
+                                <span class="icon  icon-right">
+									<i class="fab fa-github fa-3x"></i>
+								</span></a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+                <div class="container-fluid px-md-5">
+                    <div class="row d-md-flex align-items-center">
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 shadow">
+                                <div class="text">
+                                    <strong class="number" data-number="3">0</strong>
+                                    <span>Achievements</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 shadow">
+                                <div class="text">
+                                    <strong class="number" data-number="4">0</strong>
+                                    <span>Complete Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 shadow">
+                                <div class="text">
+                                    <strong class="number" data-number="6">0</strong>
+                                    <span>Working experience in months</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 shadow">
+                                <div class="text">
+                                    <strong class="number" data-number="50">0</strong>
+                                    <span>Cups of tea</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section class="ftco-section ftco-hireme img">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-7 ftco-animate text-center">
+                            <h2>I'm <span>Available</span> for Hiring</h2>
+
+                            <p class="mb-0"><a href="https://drive.google.com/file/d/1IVJ6ah1SFlzBtbNKiod2Q2kZM-urVfSt/view?usp=sharing" class="btn btn-primary py-3 px-5">Hire me</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+                <div class="container">
+                    <div class="row justify-content-center mb-5 pb-3">
+                        <div class="col-md-7 heading-section text-center ftco-animate">
+                            <h1 class="big big-2">Contact</h1>
+                            <h2 class="mb-4">Contact Me</h2>
+
+                        </div>
+                    </div>
+
+                    <div class="row d-flex contact-info mb-5">
+                        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                            <div class="align-self-stretch box text-center p-4 shadow">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="icon-map-signs"></span>
+                                </div>
+                                <div>
+                                    <h3 class="mb-4">Address</h3>
+                                    <p>791 Assumption Street, Windsor, Ontario, N9A 3B7</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                            <div class="align-self-stretch box text-center p-4 shadow">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="icon-phone2"></span>
+                                </div>
+                                <div>
+                                    <h3 class="mb-4">Contact Number</h3>
+                                    <p><a href="tel://1234567920">+ 1 519 984 5406</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                            <div class="align-self-stretch box text-center p-4 shadow">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="icon-paper-plane"></span>
+                                </div>
+                                <div>
+                                    <h3 class="mb-4">Email Address</h3>
+                                    <p><a href="mailto:info@yoursite.com">hiteshparate77@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                            <div class="align-self-stretch box text-center p-4 shadow">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="icon-globe"></span>
+                                </div>
+                                <div>
+                                    <h3 class="mb-4">Website</h3>
+                                    <p><a href="#">My Portfolio</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+
+            <footer class="ftco-footer ftco-section">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">About</h2>
+                                <p>I am a graduate student from University of Windsor in Computer Engineering. I have a keen interest in Full stack Development and have worked on projects related to Web Applications using React, Angular, Laravel, Firebase,
+                                    Node.js, MySQL, bootstrap, jquery, express.js. I am enthusiastic and a team player. My hobbies are to watch anime and playing Computer games. Feel free to connect with me and drop me a message </p>
+                                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/hiteshparate/"><span
+												class="icon-linkedin"></span></a></li>
+                                    <li class="ftco-animate"><a href="https://github.com/hiteshparate/" target="_blank"><span class="icon-github"></span></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">Have a Questions?</h2>
+                                <div class="block-23 mb-3">
+                                    <ul>
+                                        <li><span class="icon icon-map-marker"></span><span class="text">791 Assumption
+												Street,
+												Windsor, Ontario, N9A 3B7</span></li>
+                                        <li><span class="icon icon-phone"></span><span class="text">+1 519 984
+												5406</span></li>
+                                        <li><span class="icon icon-envelope"></span><span class="text">hiteshparate77@gmail.com</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
+
+
+
+            <!-- loader -->
+            <div id="ftco-loader" class="show fullscreen">
+                <svg class="circular" width="48px" height="48px">
+					<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+					<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+						stroke="#F96D00" />
+				</svg>
+            </div>
+
+
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/jquery.easing.1.3.js"></script>
+            <script src="js/jquery.waypoints.min.js"></script>
+            <script src="js/jquery.stellar.min.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
+            <script src="js/jquery.magnific-popup.min.js"></script>
+            <script src="js/aos.js"></script>
+            <script src="js/jquery.animateNumber.min.js"></script>
+            <script src="js/scrollax.min.js"></script>
+
+            <script src="js/main.js"></script>
+            <script src="js/name.js"></script>
+
+</body>
+
+</html>
